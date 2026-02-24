@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #ddd;
+ 
+}
+#titulo{
+    color: rgb(8,65,147);
+    font-family: "Arial";
+    text-align: center;
+    margin-top: 20px;
+}
+form{
+    background-color: #fff;
+    width:95% ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    border-radius: 40px;
+    padding: 50px 10px;
+    text-align: center;
+ 
+}
+ 
+#Create{
+    font-family: "Arial";
+    font-size: 25pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ 
+label{
+    display: block;
+    text-align: left;
+    font-family: "Arial";
+    font-size: 10pt;
+    font-weight: bold;
+}
+ 
+input[type=email],[type=password],[type=nome]{
+    width: 95%;
+    padding: 10px;
+    border: 0;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    background-color: #ddd;
+    outline-color: azure;
+}
+#lembrete{
+    width: 95%;
+    display: flex;
+}
+#lembrete span:nth-of-type(2){
+    font-family: "arial";
+    font-size: 10pt;
+    width: 50%;
+    text-align: right;
+    color: blue;
+}
+#lembrete span:nth-of-type(1){
+    font-family: "arial";
+    font-size: 10pt;
+    width: 30%;
+}
+#button{
+    width: 95%;
+    background-color: rgb(21, 21, 165);
+    color: #fff;
+    padding: 20px;
+    border: 0;
+    border-radius: 50px;
+    margin-top:40px;
+    font-size: 15pt;
+    text-transform: capitalize;
+    text-align: center;
+}
+ 
+ 
+form p{
+    font-family: "arial";
+    font-size: 10pt;
+    color: gray;
+    margin-top: 30px;
+}
+ 
+#redes img{
+    width: 30px;
+    height: 30px;
+}
+#redes{
+    display: flex;
+    justify-content: center;
+}
+#redes div{
+    background-color: rgb(202, 195, 195);
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#setavoltar{
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "arial";
+    font-size: 12pt;
+    font-weight: lighter;
+    border-radius: 50px;
+    position: fixed;
+    top: 17px;
+    left: 10px;
+}
